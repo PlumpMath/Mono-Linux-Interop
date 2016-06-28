@@ -13,3 +13,13 @@ long CalcFactorial(long n)
     return result;
 }
 
+void CalcFactorialInBatch(long* inputBatch, long* resultBatch, int batchSize)
+{
+    int i;
+
+    for (i = 0; i < batchSize; ++i)
+    {
+        resultBatch[i] = CalcFactorial(inputBatch[i]);
+    }
+}
+
