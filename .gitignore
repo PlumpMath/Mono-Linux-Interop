@@ -1,3 +1,6 @@
 *.o
+*.userprefs
 libfact.so
 ConsoleTest
+Factorial.Mono/Factorial.Mono/bin
+Factorial.Mono/Factorial.Mono/obj
